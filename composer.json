@@ -1,0 +1,21 @@
+{
+    "name": "fudaoji/php-jushuitan",
+    "description": "SDK for Jushuitan Open",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Rocky",
+            "email": "461960962@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dao\\Jushuitan\\": "src"
+        },
+        "files": []
+    }
+}
